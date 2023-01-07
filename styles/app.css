@@ -1,0 +1,76 @@
+*{
+  margin:0px 10px 5px 10px; 
+  font-family: Arial, Helvetica, sans-serif; 
+}
+
+header{
+    background-image:url(/img/flower.jpg);
+    height: 20%;
+    border-radius: 0px 0px 20px 20px;
+    box-shadow: 2px 4px 7px grey;
+    display: flex;
+    align-items: center;
+    
+    margin-bottom: 25px;
+}
+.intro-header{
+padding-left: 15px;
+display: flex;
+flex-direction: column;
+text-align: center;
+}
+
+.border{
+    background-color: white;
+     border-radius: 10px;
+    box-shadow: 2px 4px 7px grey;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.border-aside{
+    background-color: white;
+     border-radius: 20px;
+    box-shadow: 2px 4px 7px grey;
+}
+.main{
+    width:68%;
+  float: right;  
+}
+aside {
+  width: 28%;
+  
+  float: left; 
+}
+/* main section css */
+.padding-right-p{
+    padding-right:50px;
+}
+.padding-left-p{
+    padding-left:50px;
+}
+ul{
+    list-style-type: square;
+    font-style: normal;
+    padding: 5px;
+    text-decoration: none;   
+}
+
+.main-links{
+    color: rgb(242, 0, 255);
+}
+ul a{
+color: rgb(242, 0, 255);
+text-decoration: none;
+}
+
+.col1 ul a{
+color: rgb(242, 0, 255);
+font-weight:bold;
+
+}
+.col1{
+    padding-top: 5px;
+}
+h3{
+    background-color: rgb(187, 200, 193);
+}
